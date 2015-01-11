@@ -52,8 +52,8 @@
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Mark's Bot",
-        language: "croatian",
-        chatLink: "https://raw.githubusercontent.com/ImWiked7/langcro/master/cro.js",
+        language: "english",
+        chatLink: "https://rawgit.com/ImWiked7/langcro/master/cro.json",
         maximumAfk: 60,
         afkRemoval: true,
         maximumDc: 60,
@@ -103,6 +103,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://raw.githubusercontent.com/ImWiked7/BotTest/master/botcro.js', extend);
+    $.getScript('https://rawgit.com/ImWiked7/BotTest/master/botcro.js', extend);
 
 }).call(this);
